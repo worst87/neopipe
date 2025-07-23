@@ -1,0 +1,33 @@
+name: pvacdownstream_env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  # Python dependencies for pVACvector
+  - python=3.9
+  - pip
+
+  # R dependencies for pVACview
+  - r-base
+  - r-shiny
+  - r-dt
+  - r-reshape2
+  - r-jsonlite
+  - r-tibble
+  - r-tidyr
+  - r-plyr
+  - r-dplyr
+  - r-shinydashboard
+  - r-shinydashboardplus
+  - r-fresh
+  - r-shinycssloaders
+  - r-rcurl
+  - r-curl
+  - r-stringr
+  - r-plotly
+  - r-shinywidgets
+  - r-colourpicker
+
+  - pip:
+    - pvactools==5.4.2 # For pVACvector and pVACview commands

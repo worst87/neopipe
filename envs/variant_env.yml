@@ -1,0 +1,43 @@
+name: variant_env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  # Core Tools
+  - python=3.9
+  - star
+  - gatk4
+  - picard
+  - samtools
+  - subread
+  - qualimap
+  - bcftools
+  - stringtie
+  
+  # Variant manipulation
+  - vt
+  - tabix
+  - htslib
+  - cyvcf2
+  - varscan=2.4.6
+  - pip
+  - pip:
+    - vatools
+
+  # Annotation Tool
+  - ensembl-vep=105
+
+  # VEP Plugin Dependencies
+  - perl-gd
+  - perl-bioperl
+  - perl-dbi
+
+  # GATK R Dependencies
+  - r-base
+  - r-gsalib
+  - r-ggplot2
+  - r-gplots
+  
+  # Coverage tools
+  - bam-readcount

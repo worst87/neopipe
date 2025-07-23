@@ -1,0 +1,44 @@
+name: analysis_env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  # --- Core dependencies ---
+  - kallisto
+  - python>=3.8
+  - pandas
+  - biopython
+  - numpy
+
+  # --- R Core and Data Handling ---
+  - r-base
+  - r-essentials
+  - r-readr
+  - r-dplyr
+  - r-argparse # For command-line parsing in R scripts
+
+  # --- Bioconductor for Annotation and Expression ---
+  - bioconductor-tximport
+  - bioconductor-genomicfeatures
+  - bioconductor-deseq2
+  - bioconductor-txdbmaker
+  - bioconductor-rhdf5
+
+  # --- R for Visualization ---
+  - r-ggplot2
+  - r-pheatmap
+  - r-rcolorbrewer
+  
+  # --- Java for GATK3 ---
+  - openjdk=8
+  
+  # --- Additional tools ---
+  - bcftools
+  - samtools
+  - htslib
+  - pyvcf
+  - bedtools
+  
+  # --- Manual GATK3 installation required ---
+  # Download GATK 3.6 separately and set GATK3_JAR in config.sh

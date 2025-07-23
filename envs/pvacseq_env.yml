@@ -1,0 +1,42 @@
+name: pvacseq_env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  # Core Python and compilers
+  - python=3.9
+  - pip
+  - gxx_linux-64
+  - perl
+  - blast
+  - samtools
+  - bcftools
+  - vcftools
+  - htslib
+  - vt
+  - bam-readcount
+  - pyvcf
+
+  # VEP
+  - ensembl-vep=105
+  - stringtie
+
+  # GPU support for MHCflurry
+  - tensorflow=2.10
+  
+  # Pip packages
+  - pip:
+    # MHCflurry and dependencies
+    - mhcflurry==2.0.6
+    - mhcnames
+    # pVACtools
+    - pvactools==5.4.2
+    # ADDED: VAtools for VCF annotation
+    - vatools>=1.0.0
+    - gtfparse
+    - polars
+    # Additional requirements
+    - keras==2.10.0
+    - numpy<1.24
+    - cyvcf2
