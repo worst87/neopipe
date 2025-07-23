@@ -11,7 +11,6 @@ This pipeline processes RNA-seq data to identify somatic variants and predict ne
 - **Read-backed phasing** for accurate neoantigen sequences
 - **Expression-based filtering** using Kallisto quantification
 - **Interactive visualization** with pVACview
-- **Modular design** for easy customization
 
 ## Pipeline Steps
 
