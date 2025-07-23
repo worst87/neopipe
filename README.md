@@ -2,7 +2,7 @@
 
 ## Overview
 
-This pipeline processes RNA-seq data to identify somatic variants and predict neoantigens for cancer immunotherapy research. It integrates multiple variant callers, performs read-backed phasing, and uses pVACseq for neoantigen prediction.
+This pipeline processes RNA-seq data to identify somatic variants and predict neoantigens for cancer immunotherapy research. It integrates multiple variant callers, performs read-backed phasing, and uses pVACseq for neoantigen prediction. This is not yet complete, the configs and file paths are local to my desktop. The uploaded files serve as a backup copy. Do not use.
 
 ## Key Features
 
