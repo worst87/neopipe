@@ -81,7 +81,6 @@ All pipeline parameters are defined in `config.sh`:
 - [USAGE.md](docs/usage.md) - Running the pipeline
 - [PARAMETERS.md](docs/parameters.md) - Configuration options
 - [OUTPUT.md](docs/output.md) - Understanding the results
-- [TROUBLESHOOTING.md](docs/troubleshooting.md) - Common issues
 
 ## Citation
 
