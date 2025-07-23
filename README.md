@@ -44,9 +44,8 @@ This pipeline processes RNA-seq data to identify somatic variants and predict ne
 ## Requirements
 
 - Linux system (tested on WSL Ubuntu)
-- Conda/Mamba package manager
+- Conda package manager
 - At least 32GB RAM
-- ~500GB storage for reference files and output
 - GATK3 jar file (manual download required)
 
 ## Output Structure
@@ -94,12 +93,13 @@ This pipeline integrates multiple published tools. Please cite:
 - VEP: McLaren et al. (2016) Genome Biology
 - pVACseq: Hundal et al. (2020) Cancer Immunology Research
 - MHCflurry: O'Donnell et al. (2018) Cell Systems
+- Reference nextNEOpi's code
 
 ## Author
 
-Created for RNA-seq variant analysis and neoantigen discovery research.
+Prototype created for RNA-seq variant analysis and neoantigen discovery research.
 
 ## Version
 
 Pipeline Version: 1.0
-Release Date: 2024
+Release Date: 2025
